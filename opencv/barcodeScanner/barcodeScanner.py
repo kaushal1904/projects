@@ -1,4 +1,4 @@
-# Python application ~ Bar-code scanner v1.0
+# Python application ~ Bar-code scanner v1.1
 #-----------------------------------------------------------------------------------------------------------------------
 
 # Readme file for more details
@@ -50,6 +50,8 @@ while True:
     if barcode:
 
         #print(barcode)           #prints the crude data read from the barcode
+        
+        print('\nBarcode Scanned!')                                         #success text
 
         # ---- TTS needs internet connection ----------
         try:                                                                #wrapping a try block to catch exception during no internet
@@ -73,8 +75,7 @@ while True:
                 barcode_data = barcode.data.decode("utf-8")                #saves the barcode data in an object
                 barcode_type = barcode.type                                #saves the barcode type in an object
 
-            print('\nBarcode Scanned!')                                    #success text
-            print('Barcode Data:', barcode_data)                           #prints the barcode data
+            print('\nBarcode Data:', barcode_data)                           #prints the barcode data
             print('Barcode Type:',barcode_type)                            #prints the barcode type
             time.sleep(1)                                                  #pauses the execution of the application for the desired amount of sec
 
