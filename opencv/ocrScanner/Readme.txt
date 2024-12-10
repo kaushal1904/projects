@@ -1,4 +1,4 @@
-#Python application ~ OCR scanner Readme v1.2
+#Python application ~ OCR scanner Readme v1.1
 
 # Author: Kaushal Shastry
 # Email: kaushal.shastry@outlook.com // kaushal19.shastry@gmail.com
