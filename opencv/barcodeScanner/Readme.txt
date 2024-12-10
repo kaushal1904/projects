@@ -1,4 +1,4 @@
-#Python application ~ Bar-code scanner Readme v1.0
+#Python application ~ Bar-code scanner Readme v1.1
 
 # Author: Kaushal Shastry
 # Email: kaushal.shastry@outlook.com // kaushal19.shastry@gmail.com
@@ -7,7 +7,7 @@
 #-----------------------------------------------------------------------------------------------------------------------
 
 
-Used pycharm to build, test and run the application 
+Used pycharm to build, test and run the application on MacOS 15.1 (24B83)
 Application will run in any python IDE as long as the supported libraries and binaries are installed 
 The code is accompanied with detailed comments for novice programmers 
 
