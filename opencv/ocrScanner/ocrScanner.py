@@ -1,4 +1,4 @@
-# Python application ~ OCR scanner v1.0
+# Python application ~ OCR scanner v1.1
 #-----------------------------------------------------------------------------------------------------------------------
 
 # Readme file for more details
@@ -17,7 +17,7 @@
 import cv2                                                                             #Opencv package
 import pytesseract                                                                     #OCR package for character recognition
 
-pytesseract.pytesseract.tesseract_cmd = '/usr/local/bin/tesseract'
+pytesseract.pytesseract.tesseract_cmd = '/usr/local/bin/tesseract'                     #executable for base binaries of pytesseract OCR, required for OCR related functions 
 
 scan_text_loc = "Scan text here"
 
