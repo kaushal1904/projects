@@ -1,4 +1,4 @@
-#Python application ~ OCR scanner Readme v1.1
+#Python application ~ OCR scanner Readme v1.2
 
 # Author: Kaushal Shastry
 # Email: kaushal.shastry@outlook.com // kaushal19.shastry@gmail.com
@@ -15,7 +15,11 @@ This application can be used for real time text recognition needs
 Tweak the code accordingly
 
 The OCR scanner package pytesseract has a good recognition rate, make sure to use a decent camera with good lighting 
-Tried OCR with printed text on paper and a digital device, recognition worked with the application  
+Tried OCR with printed text on paper and a digital device, recognition worked with the application
+The video stream is a little choppy, but the OCR should work 
+
+More info on how to install and use pytesseract package -> https://pypi.org/project/pytesseract/
+
 
 # Reach out via GitHub or Email for any communication
 # Mentions and donations will be appreciated
