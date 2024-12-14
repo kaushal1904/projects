@@ -1,4 +1,4 @@
-#Python application ~ Hotel Check In system Readme v1.0
+#Python application ~ Hotel Check In system Readme v1.1
 
 # Author: Kaushal Shastry
 # Email: kaushal.shastry@outlook.com // kaushal19.shastry@gmail.com
@@ -41,7 +41,7 @@ Connect pycharm IDE to the DB by adding the following code (already added in hot
 
 
 The qrcode scanner function cv2.QRCodeDetector() has a good recognition rate, make sure to use a decent camera with good lighting 
-Built a few custom QR codes using https://www.the-qrcode-generator.com/  which worked with the application. Added a few QR codes to the sample QR codes folder
+Built a few custom QR codes using https://www.the-qrcode-generator.com/  which worked with the application. Added a few QR codes to the SampleQRCodes folder
 
 The QR codes that I use have two parameters/identifiers in the QR code; Name and BookingId, add more if you want and tweak the QR code recognition logic accordingly
 
