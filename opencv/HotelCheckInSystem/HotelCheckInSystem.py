@@ -1,4 +1,4 @@
-# Python application ~ Hotel CheckIn System v1.1
+# Python application ~ Hotel CheckIn System v1.2
 #-----------------------------------------------------------------------------------------------------------------------
 
 # Readme file for more details
@@ -16,6 +16,7 @@
 import datetime                                                                                                         #Package used for date time operation
 import psycopg2                                                                                                         #Package used for Postgres DB operations
 import cv2                                                                                                              #Package used for cv2 utilities
+import numpy as np                                                                                                      #Package used for facial recognition 
 
 #Importing a file containing the processing animation gif
 from '$path_directory' import aniProcessing                                                                             #Replace '$path_directory' with your choice of path
