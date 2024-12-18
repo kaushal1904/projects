@@ -1,4 +1,4 @@
-# Python application ~ Hotel CheckIn System v1.0
+# Python application ~ Hotel CheckIn System v1.1
 #-----------------------------------------------------------------------------------------------------------------------
 
 # Readme file for more details
@@ -17,8 +17,8 @@ import datetime                                                                 
 import psycopg2                                                                                                         #Package used for Postgres DB operations
 import cv2                                                                                                              #Package used for cv2 utilities
 
-#Importing a file containing the loader animation gif
-from '$path_directory' import aniLoader                                                                                 #Replace '$path_directory' with your choice of path
+#Importing a file containing the processing animation gif
+from '$path_directory' import aniProcessing                                                                             #Replace '$path_directory' with your choice of path
 
 conn = psycopg2.connect(database="postgres",                                                                            #Connecting to a database, readme for more details
                         host="localhost",
@@ -90,7 +90,7 @@ while True:
                     #Condition to verify if the current time is as per the hotel's check in time policy, set it as per your needs
                     if currentTime > datetime.time(12, 0, 00, 00000) and currentTime < datetime.time(23, 59,0 , 0000):
 
-                        aniLoader.loader()                                                                              #Calling the loader animation
+                        aniProcessing.processing()                                                                      #Calling the processing animation
 
                         print('\nWould you like to check in? Select y to confirm or n to exit')                         #User input, confirmation for check in
                         confstatus = input()
@@ -162,12 +162,12 @@ while True:
                             continue
 
                     else:                                                                                               #Condition if current time is not as per hotel check in time policy
-                        aniLoader.loader()                                                                              #Calling the loader animation gif
+                        aniProcessing.processing()                                                                      #Calling the processing animation gif
                         print('\nCheck Ins allowed only after 12 pm.')
                         continue
 
                 else:                                                                                                   #Condition if guests scan an Invalid QR code
-                    aniLoader.loader()                                                                                  #Calling the loader animation gif
+                    aniProcessing.processing()                                                                          #Calling the processing animation gif
                     print('\nInvalid QR code')
                     continue
 
