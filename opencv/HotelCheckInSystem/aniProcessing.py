@@ -1,4 +1,4 @@
-# Custom processing animation function for Python application ~ Hotel CheckIn System v1.0
+# Custom processing animation function for Python application ~ Hotel CheckIn System v1.1
 #-----------------------------------------------------------------------------------------------------------------------
 
 # Readme file for more details
@@ -16,7 +16,7 @@
 import cv2
 playedNumber = 0
 
-def processingAni():
+def processing():
   
     wc = cv2.VideoCapture('$save_path/loader.gif')                               #Replace $save_path with your choice of path
     #added the loader.gif file to the opencv/HotelCheckInSystem/Resources
@@ -40,7 +40,7 @@ def processingAni():
             count = 0
             playedNumber +=1
             #print(playedNumber)
-            processingAni()
+            processing()
 
         if playedNumber == 1 :
             playedNumber= 0
