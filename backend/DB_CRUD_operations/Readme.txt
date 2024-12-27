@@ -1,4 +1,4 @@
-#Python application that performs CRUD operations on a DB Readme v1.0
+#Python application that performs CRUD operations on a DB Readme v1.1
 
 # Author: Kaushal Shastry
 # Email: kaushal.shastry@outlook.com // kaushal19.shastry@gmail.com
@@ -7,7 +7,7 @@
 #-----------------------------------------------------------------------------------------------------------------------
 
 
-Used pycharm to build, test and run the application 
+Used pycharm to build, test and run the application on MacOS 15.1
 Application will run in any python IDE as long as the supported packages and binaries are installed 
 
 Used a Postgres DB for CRUD operations. Pycharm supports a wide range of DBMS, configure one that suits your needs. Packages and drivers may vary for different DMBS. 
