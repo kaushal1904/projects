@@ -1,4 +1,4 @@
-#Python application ~ GUI based REST API requests v1.0
+#Python application ~ GUI based REST API requests v1.1
 
 # Author: Kaushal Shastry
 # Email: kaushal.shastry@outlook.com // kaushal19.shastry@gmail.com
@@ -12,6 +12,8 @@ Change the "base_url" to the URL you want in the main.py file and verify the res
 
 Used pycharm to build, test and run the application on MacOS 15.1
 Application will run in any python IDE as long as the supported packages and binaries are installed 
+
+Run the main.py for the application to execute 
 
 
 # Reach out via GitHub or Email for any communication
