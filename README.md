@@ -1,5 +1,5 @@
 # projects
-Projects showcasing my coding skills
+Projects showcasing my work with products 
 
 
 
