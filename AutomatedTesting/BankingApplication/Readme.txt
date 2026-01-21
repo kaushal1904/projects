@@ -1,4 +1,4 @@
-#Python application ~  Automated Smoke testing of a Banking Application v1.1
+#Python application ~  Automated Smoke testing of a Banking Application v1.2
 
 # Author: Kaushal Shastry
 # Email: kaushal.shastry@outlook.com // kaushal19.shastry@gmail.com
@@ -12,6 +12,9 @@ and ensure core functionalities work.
 
 This has test cases such as Login, Logout and Balance and User profile check. Used pycharm to build, test and run the 
 application on MacOS 15.6.1
+
+Executable file: https://drive.google.com/drive/folders/1HlkMcNOzm26mXh3XsAT0QCiU1emoeUu-?usp=drive_link 
+This executable will run only on MacOS, reach out for customization. It has all the dependencies bundled together for complete execution of the Automated Smoke tests. 
 
 URL to the test execution video: https://www.youtube.com/watch?v=V9za5ZXcVqY
 
